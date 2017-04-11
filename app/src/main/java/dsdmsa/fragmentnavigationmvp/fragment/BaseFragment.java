@@ -43,12 +43,4 @@ public abstract class BaseFragment extends Fragment implements FragmentNavigatio
         navigationPresenter = presenter;
     }
 
-    /**
-     * tell the presenter to show the fragment param
-     * @param fragment
-     */
-    @Override
-    public void addFragment(BaseFragment fragment) {
-        navigationPresenter.addFragment(fragment);
-    }
 }

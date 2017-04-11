@@ -11,7 +11,6 @@ public interface FragmentNavigation {
     interface View {
         void atachPresenter(Presenter presenter);
 
-        void addFragment(BaseFragment fragment);
     }
 
     interface Presenter {
